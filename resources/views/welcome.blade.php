@@ -79,7 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Snowman-Laravel
+                    欢迎来到Snowman个人站
+                </div>
+                <br>
+                <div class="title m-b-md">
+                    我叫刀疤涛，我在用Laravel框架，我在github等你！！！
                 </div>
 
                 <div class="links">
