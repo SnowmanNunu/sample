@@ -33,6 +33,7 @@ body {
 
 section {
   overflow: auto;
+  text-align: center;
 }
 
 textarea {
@@ -90,6 +91,13 @@ p {
   }
 }
 
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
 /* footer */
 
 footer {
@@ -136,6 +144,7 @@ footer {
 
 aside {
   section {
+
     padding: 10px 0;
     margin-top: 20px;
     &:first-child {
