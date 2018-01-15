@@ -43,7 +43,8 @@ class User extends Authenticatable
     public function gravatar($size = '100')
     {
         $hash = md5(strtolower(trim($this->attributes['email'])));
-        return "http://www.gravatar.com/avatar/$hash?s=$size";
+        return "https://thumbnail0.baidupcs.com/thumbnail/cf2ece298174f61ace375f8b1c406bb8?fid=4064967793-250528-601187939322295&time=1516010400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-cfSVX3d5jMrRPo3lt8Cf%2FBNFdrs%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=342147780787253274&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video?s=$size";
+//        return "http://www.gravatar.com/avatar/$hash?s=$size";
     }
 
     public function sendPasswordResetNotification($token)
