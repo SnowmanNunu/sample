@@ -26,7 +26,7 @@
         欢迎来到SnowmanNunu的个人小站 <a href="https://fsdhub.com/">Laravel 入门教程</a> 的项目主页。
       </p>
       <p>
-        一切，将从这里开始。我是渣渣刀疤涛，我在用Laravel框架，我在GitHub等你！
+        一切，将从这里开始。我是渣刀疤涛，我在用Laravel框架，我在GitHub等你！
       </p>
       <p>
         <a class="btn btn-lg btn-success" href="{{ route('signup') }}" role="button">现在注册</a>
